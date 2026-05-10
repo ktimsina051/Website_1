@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Official website of Kumar Baral</title>
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i" rel="stylesheet" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    
+    <body>
+        <header>
+            <img class="circular_image" src="assets/img/intro.jpg"/> 
+            <h1 class="site-heading text-center text-faded d-none d-lg-block">
+                <span class="site-heading-upper text-primary mb-3"> </span>
+                <span class="site-heading-lower text-primary mb-3">contact</span>
+            </h1>
+        </header>
+        
+
+
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-dark py-lg-4" id="mainNav">
+            <div class="container">
+                <a class="navbar-brand text-uppercase fw-bold d-lg-none" href="index.html">CLick here to expand</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mx-auto">
+                        <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="index.html">Home</a></li>
+                        <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="about.html">About</a></li>
+                        <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="skills.html">Profession</a></li>
+                        <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <body>
+            <h2 class="site-heading text-center text-faded d-none d-lg-block">
+             <p style="font-size: 18px;" font-size: 20px; id="date"></p>
+             <p style="font-size: 18px;" font-size: 20px; id="Time"></p>
+            </h2>
+         
+              <script>
+             function updateDateTime() {
+               var currentDateTime = new Date();
+               var dateString = currentDateTime.toLocaleDateString();
+               var timeString = currentDateTime.toLocaleTimeString();
+               document.getElementById("date").innerHTML = "D: "+dateString;
+               document.getElementById("Time").innerHTML = "T: " +timeString;
+             }
+             setInterval(updateDateTime, 1000);
+             </script>
+          </body>
+         <style>
+         #clock {
+           position: absolute;
+           top: 50%;
+           left: 50%;
+           transform: translate(-50%, -50%);
+           font-size: 60px;
+           font-weight: bold;
+           text-align: center;
+         }
+         </style>
+        <section class="page-section cta">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-9 mx-auto">
+                        <div class="cta-inner bg-faded text-center rounded">
+                            <h1 class="section-heading mb-4">
+                                <span class="section-heading-upper">Follow me on social media</span>
+                                <span class="section-heading-upper"></span>
+                            </h1>
+                            <nav class="navbar navbar-expand-lg navbar-dark py-lg-4" id="mainNav">
+                                
+                                        <ul class="navbar-nav mx-auto">
+                                            
+                                            <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="https://www.facebook.com/rinsbe" target="_blank"><ion-icon name="logo-facebook" size="large"></ion-icon></a></li>
+                                            <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="https://www.instagram.com/rincebe" target="_blank"><ion-icon name="logo-instagram" size="large"></ion-icon></a></li>
+                                            <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="https://twitter.com/Rins_Bee" target="_blank"><ion-icon name="logo-twitter" size="large"></ion-icon></a></li>
+                                            <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="https://www.linkedin.com/in/kumarbaral" target="_blank"><ion-icon name="logo-linkedin" size="large"></ion-icon></a></li>
+                                            <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="https://github.com/rincebee" target="_blank"><ion-icon name="logo-github" size="large"></ion-icon></a></li>
+                                            <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="https://www.youtube.com/channel/UC67Gah9TW7q3c6_KQMnvKzw" target="_blank"><ion-icon name="logo-youtube" size="large"></ion-icon></a></li>
+                                            
+                                        </ul>
+                                    
+                            </nav>
+                            <br>
+                            <ul class="list-unstyled list-hours mb-5 text-center mx-auto">
+                                <li class="list-unstyled-item list-hours-item d-flex justify-content-center">
+                                  <a class="btn btn-primary btn-xl" href="https://www.kumarbaral.com.np" target="_blank">Official website</a>
+                                </li>
+                            </ul>
+                            <p class="address mb-5">
+                                <em>
+                                    Meet me at
+                                    <br />
+                                    <strong><a  href="https://www.penrithcity.nsw.gov.au/" target="_blank">Penrith City Council  </a></strong>
+                                    <br />
+                                    601 High St, Penrith NSW 2750
+                                    <br>
+                                    For any queries contact me through the contact form below.
+                                </em>
+                            </p>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    <!-- Contact Section-->
+    <section class="page-section" id="contact">
+        <div class="container">
+            <!-- Contact Section Heading-->
+            <h2 class="section-heading mb-4">
+                <span class="section-heading-lower" style="color:rgb(243, 239, 239)">contact me</span>
+                <em><span class="section-heading-upper" style="color:rgb(243, 239, 239)">please don't hesitate to contact me for any kind of queries</span></em>
+            </h2>
+            <!-- Icon Divider-->
+            <div class="divider-custom">
+                <div class="divider-custom-line"></div>
+                <div class="divider-custom-icon"></div>
+                <div class="divider-custom-line"></div>
+            </div>
+            <!-- Contact Section Form-->
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <!-- To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19.-->
+                    <form action ="https://formsubmit.co/kumar.baral572@gmail.com" method="POST" id="contactForm" name="sentMessage" novalidate="novalidate">
+                        <input type="hidden" name="_next" value="https://kumarbaral.com.np/thankyou.html">
+                        <input type="hidden" name="_captcha" value="false">
+                        <div class="control-group">
+                            <div class="form-group floating-label-form-group controls mb-0 pb-2">
+                                <label style="color:rgb(243, 239, 239)">Name</label>
+                                <input class="form-control" name="name" id="name" type="text" placeholder="Name" required="required" data-validation-required-message="Please enter your name." />
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+                        <div class="control-group">
+                            <div class="form-group floating-label-form-group controls mb-0 pb-2">
+                                <label style="color:rgb(241, 235, 235)">Email Address</label>
+                                <input class="form-control" name="email" id="email" type="email" placeholder="Email Address" required="required" data-validation-required-message="Please enter your email address." />
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+                        <div class="control-group">
+                            <div class="form-group floating-label-form-group controls mb-0 pb-2">
+                                <label style="color:rgb(240, 233, 233)">Phone Number</label>
+                                <input class="form-control" name="number" id="phone" type="tel" placeholder="Phone Number" required="required" data-validation-required-message="Please enter your phone number." />
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+                        <div class="control-group">
+                            <div class="form-group floating-label-form-group controls mb-0 pb-2">
+                                <label style="color:rgb(243, 233, 233)">Message</label>
+                                <textarea class="form-control" name="message" id="message" rows="5" placeholder="Message" required="required" data-validation-required-message="Please enter a message."></textarea>
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+                        <br />
+                        <div id="success"></div>
+                        <div class="form-group"><button class="btn btn-primary btn-xl" id="sendMessageButton" type="submit">Send</button></div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+<section class="page-section about-heading">
+    <div class="container">
+        <img class="img-fluid rounded about-heading-img mb-3 mb-lg-0" src="assets/img/about.jpg" alt="..." />
+        <div class="about-heading-content">
+            <div class="row">
+                <div class="col-xl-9 col-lg-10 mx-auto">
+                    <div class="bg-faded rounded p-5">
+                        <h2 class="section-heading mb-4">
+                            <span class="section-heading-upper">  </span>
+                            <span class="section-heading-lower"> </span>
+                        </h2>
+                        <p>Rain over a Scottish catchment. Understanding the cycling of water into, 
+                        through, and out of catchments is a key element of hydrology. &#169 wikipedia </p>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+</section>
+        <footer class="footer text-faded text-center py-5">
+            <div class="container"><p class="m-0 small">Copyright &copy; RinceBee 2025</p></div>
+        </footer>
+        <!-- Bootstrap core JS-->
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script> 
+    </body>
+</html>
